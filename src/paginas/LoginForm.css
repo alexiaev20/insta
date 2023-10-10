@@ -1,0 +1,177 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  margin-left: 786px;
+}
+
+.image-container {
+  position: absolute;
+  left: 0;
+  top: 44%;
+  transform: translateY(-50%);
+  margin-left: 300px;
+}
+
+.side-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-container {
+  width: 320px;
+  height: 370px;
+  margin-left: auto;
+  margin-right: 670px;
+  margin-top: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 2px;
+  padding: 20px;
+  box-shadow: 1px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* bloco 1 */
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  font-family: 'Billabong', cursive;
+  color: #262626;
+}
+
+
+input {
+  width: 250px;
+  /* Largura da caixa de entrada */
+  height: 15px;
+  /* Altura da caixa de entrada */
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  font-size: 10px;
+  background-color: #fafafa;
+}
+
+
+button {
+  width: 270px;
+  padding: 5px;
+  background-color: #0095f6;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 15px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:disabled {
+  background-color: #b2dffc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #0077e0;
+}
+
+
+.hr-line {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hr-line::before, .hr-line::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #dbdbdb;
+}
+
+.hr-line::before {
+  margin-right: 10px;
+}
+
+.hr-line::after {
+  margin-left: 10px;
+}
+
+/* Facebook" */
+.facebook-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.facebook-logo {
+  width: 20px;
+  margin-right: 10px;
+}
+
+
+.forgot-password {
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+/*bloco 2*/
+.segundo-container {
+  width: 350px;
+  height: 63px;
+  margin-left: 0;
+  margin-top: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  padding: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.segundo-link {
+  font-size: 14px;
+  color: #003569;
+  text-decoration: none;
+}
+
+.segundo-link:hover {
+  text-decoration: underline;
+}
+
+/* bloco 3*/
+.get-app-container {
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 360px;
+}
+
+.app-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.app-icon {
+  width: 110.767px;
+  margin: 0 10px;
+}
+
+
+.footer {
+  text-align: center;
+  position: fixed;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 13px;
+  color: #999;
+  width: 100%;
+  background-color: #fff;
+}
